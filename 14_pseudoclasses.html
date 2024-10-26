@@ -4,11 +4,119 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Pseudoclasses</title>
+   <style>
+      /* CSS styles for demonstration */
+      :link {
+         color: blue;
+      }
+
+      :visited {
+         color: purple;
+      }
+
+      :hover {
+         color: red;
+      }
+
+      :active {
+         color: green;
+      }
+
+      :focus {
+         background-color: yellow;
+      }
+
+      :target {
+         background-color: orange;
+      }
+
+      :enabled {
+         background-color: lightgreen;
+      }
+
+      :disabled {
+         background-color: lightgray;
+      }
+
+      :checked {
+         background-color: pink;
+      }
+
+      :indeterminate {
+         background-color: gray;
+      }
+
+      :root {
+         background-color: lightblue;
+      }
+
+      :nth-child(2) {
+         background-color: lightcoral;
+      }
+
+      :nth-last-child(2) {
+         background-color: lightgoldenrodyellow;
+      }
+
+      :first-child {
+         background-color: lightgreen;
+      }
+
+      :last-child {
+         background-color: lightpink;
+      }
+
+      :first-of-type {
+         background-color: lightblue;
+      }
+
+      :last-of-type {
+         background-color: lightcoral;
+      }
+
+      :only-child {
+         background-color: lightgray;
+      }
+
+      :only-of-type {
+         background-color: lightgreen;
+      }
+
+      :empty {
+         background-color: lightyellow;
+      }
+
+      :lang(en) {
+         background-color: lightblue;
+      }
+   </style>
 </head>
 
 <body>
-
+   <h1>Pseudoclasses</h1>
+   <p><a href="#">:link</a> - Selects unvisited links.</p>
+   <p><a href="#" class="visited">:visited</a> - Selects visited links.</p>
+   <p><a href="#" class="hover">:hover</a> - Selects elements when the mouse is over them.</p>
+   <p><a href="#" class="active">:active</a> - Selects elements when they are active.</p>
+   <p><input type="text" class="focus">:focus</a> - Selects elements when they have focus.</p>
+   <p><a href="#target" class="target">:target</a> - Selects elements that are the target of the current URL.</p>
+   <p><input type="checkbox" class="enabled" checked>:enabled</a> - Selects enabled elements.</p>
+   <p><input type="checkbox" class="disabled" disabled>:disabled</a> - Selects disabled elements.</p>
+   <p><input type="checkbox" class="checked" checked>:checked</a> - Selects checked elements.</p>
+   <p><input type="checkbox" class="indeterminate">:indeterminate</a> - Selects indeterminate elements.</p>
+   <p>:root - Selects the root element of the document.</p>
+   <p>:nth-child(2) - Selects the second child element.</p>
+   <p>:nth-last-child(2) - Selects the second last child element.</p>
+   <p>:first-child - Selects the first child element.</p>
+   <p>:last-child - Selects the last child element.</p>
+   <p>:first-of-type - Selects the first element of a particular type.</p>
+   <p>:last-of-type - Selects the last element of a particular type.</p>
+   <p>:only-child - Selects elements that are the only child of their parent.</p>
+   <p>:only-of-type - Selects elements that are the only element of their type.</p>
+   <p>:empty - Selects elements that are empty.</p>
+   <p>:lang(en) - Selects elements with a language code of "en".</p>
+   <div id="target">Target element</div>
 </body>
 
 </html>
