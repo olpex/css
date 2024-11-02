@@ -4,15 +4,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--Those we add style file-->
 	<link rel="stylesheet" href="style.css">
 	<title>Посібник з Псевдокласів CSS</title>
 </head>
 
 <body>
-
 	<h1>Посібник з Псевдокласів CSS</h1>
-
 	<!-- 1. :hover Приклад -->
 	<section>
 		<h2>:hover</h2>
@@ -30,7 +27,6 @@
     color: #3498db;
     transition: color 0.3s;
 }
-
 .hover-example a:hover {
     color: #2ecc71;
 }
@@ -38,7 +34,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- 2. :active Приклад -->
 	<section>
 		<h2>:active</h2>
@@ -59,7 +54,6 @@
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
 .active-example button:active {
     background-color: #c0392b;
 }
@@ -67,7 +61,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- 3. :focus Приклад -->
 	<section>
 		<h2>:focus</h2>
@@ -87,7 +80,6 @@
     width: 100%;
     box-sizing: border-box;
 }
-
 .focus-example input:focus {
     border-color: #8e44ad;
     outline: none;
@@ -96,7 +88,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- 4. :first-child та :last-child Приклад -->
 	<section>
 		<h2>:first-child та :last-child</h2>
@@ -118,7 +109,6 @@
     color: #e67e22;
     font-weight: bold;
 }
-
 .first-last-example ul li:last-child {
     color: #e74c3c;
     font-weight: bold;
@@ -127,7 +117,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- 5. :nth-child() Приклад -->
 	<section>
 		<h2>:nth-child()</h2>
@@ -152,7 +141,6 @@
 .nth-child-example ul li:nth-child(odd) {
     background-color: #ecf0f1;
 }
-
 .nth-child-example ul li:nth-child(even) {
     background-color: #bdc3c7;
 }
@@ -160,7 +148,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- 6. :not() Приклад -->
 	<section>
 		<h2>:not()</h2>
@@ -177,7 +164,6 @@
 .not-example p:not(.highlight) {
     color: #95a5a6;
 }
-
 .highlight {
     color: #2c3e50;
     font-weight: bold;
@@ -186,7 +172,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- 7. :link та :visited Приклад -->
 	<section>
 		<h2>:link та :visited</h2>
@@ -203,7 +188,6 @@
 .link-example a:link {
     color: #2980b9;
 }
-
 .link-example a:visited {
     color: #8e44ad;
 }
@@ -211,7 +195,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- 8. :disabled та :enabled Приклад -->
 	<section>
 		<h2>:disabled та :enabled</h2>
@@ -234,7 +217,6 @@
     background-color: #95a5a6;
     cursor: not-allowed;
 }
-
 .enabled-example button:enabled {
     background-color: #27ae60;
     cursor: pointer;
@@ -243,7 +225,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- 9. :checked Приклад -->
 	<section>
 		<h2>:checked</h2>
@@ -256,35 +237,4 @@
 				<label for="check1">Опція 1</label><br>
 				<input type="checkbox" id="check2">
 				<label for="check2">Опція 2</label><br>
-				<input type="checkbox" id="check3">
-				<label for="check3">Опція 3</label>
-			</div>
-			<div class="code-box">
-				<pre><code>
-.checked-example input[type="checkbox"]:checked + label {
-    color: #d35400;
-    font-weight: bold;
-}
-                </code></pre>
-			</div>
-		</div>
-	</section>
-
-	<!-- Додаткові Псевдокласи (Необов'язково) -->
-	<section>
-		<h2>Додаткові Псевдокласи для Вивчення</h2>
-		<p>Хоча приклад охоплює багато популярних псевдокласів, ось декілька, які ви можете додатково вивчити:</p>
-		<ul>
-			<li><strong>:nth-of-type()</strong> – Вибирає nth-дочірній елемент певного типу.</li>
-			<li><strong>:first-of-type</strong> – Вибирає перший дочірній елемент певного типу.</li>
-			<li><strong>:last-of-type</strong> – Вибирає останній дочірній елемент певного типу.</li>
-			<li><strong>:only-child</strong> – Вибирає елемент, який є єдиним дочірнім елементом свого батька.</li>
-			<li><strong>:empty</strong> – Вибирає елементи, які не мають дітей.</li>
-			<li><strong>:target</strong> – Стилізує цільовий елемент URL, що містить ідентифікатор фрагмента.</li>
-		</ul>
-		<p>Не соромтеся додавати їх до прикладу, щоб розширити ваші знання!</p>
-	</section>
-
-</body>
-
-</html>
+				<input type="checkbox" id="check3
