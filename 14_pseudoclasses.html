@@ -250,20 +250,309 @@
 		</div>
 	</section>
 
-	<!-- Додаткові Псевдокласи (Необов'язково) -->
-	<section>
+
+	<section id="nth-of-type-example">
+		<h3>:nth-of-type()</h3>
+		<div class="pseudoclass-container">
+			<div class="description">
+				<p>Псевдоклас <code>:nth-of-type()</code> вибирає елементи на основі їх позиції серед сусідів певного типу.
+				</p>
+			</div>
+			<div class="example-box nth-of-type-example">
+				<ul>
+					<li>Елемент 1</li>
+					<li>Елемент 2</li>
+					<li>Елемент 3</li>
+					<li>Елемент 4</li>
+					<li>Елемент 5</li>
+				</ul>
+				<button id="nth-of-type-btn">Змінити колір кожного третього елемента</button>
+			</div>
+			<div class="code-box">
+				<pre><code>
+.nth-of-type-example ul li:nth-of-type(3n) {
+    background-color: #ecf0f1;
+}
+            </code></pre>
+				<div class="note">Коли ви натиснете кнопку, кожен третій елемент списку буде виділено.</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="first-of-type-example">
+		<h3>:first-of-type</h3>
+		<div class="pseudoclass-container">
+			<div class="description">
+				<p>Псевдоклас <code>:first-of-type</code> вибирає перший дочірній елемент певного типу.</p>
+			</div>
+			<div class="example-box first-of-type-example">
+				<ul>
+					<li>Елемент 1</li>
+					<li>Елемент 2</li>
+					<li>Елемент 3</li>
+				</ul>
+				<button id="first-of-type-btn">Змінити колір першого елемента</button>
+			</div>
+			<div class="code-box">
+				<pre><code>
+.first-of-type-example ul li:first-of-type {
+    background-color: #ecf0f1;
+}
+            </code></pre>
+				<div class="note">Коли ви натиснете кнопку, перший елемент списку буде виділено.</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="last-of-type-example">
+		<h3>:last-of-type</h3>
+		<div class="pseudoclass-container">
+			<div class="description">
+				<p>Псевдоклас <code>:last-of-type</code> вибирає останній дочірній елемент певного типу.</p>
+			</div>
+			<div class="example-box last-of-type-example">
+				<ul>
+					<li>Елемент 1</li>
+					<li>Елемент 2</li>
+					<li>Елемент 3</li>
+				</ul>
+				<button id="last-of-type-btn">Змінити колір останнього елемента</button>
+			</div>
+			<div class="code-box">
+				<pre><code>
+.last-of-type-example ul li:last-of-type {
+    background-color: #ecf0f1;
+}
+            </code></pre>
+				<div class="note">Коли ви натиснете кнопку, останній елемент списку буде виділено.</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="nth-of-type-example">
+		<h3>:nth-of-type()</h3>
+		<div class="pseudoclass-container">
+			<div class="description">
+				<p>Псевдоклас <code>:nth-of-type()</code> вибирає елементи на основі їх позиції серед сусідів певного типу.
+				</p>
+			</div>
+			<div class="example-box nth-of-type-example">
+				<ul>
+					<li>Елемент 1</li>
+					<li>Елемент 2</li>
+					<li>Елемент 3</li>
+					<li>Елемент 4</li>
+					<li>Елемент 5</li>
+					<li>Елемент 6</li>
+					<li>Елемент 7</li>
+					<li>Елемент 8</li>
+					<li>Елемент 9</li>
+					<li>Елемент 10</li>
+				</ul>
+				<button id="nth-of-type-btn">Змінити колір кожного третього елемента</button>
+			</div>
+			<div class="code-box">
+				<pre><code>
+.nth-of-type-example ul li:nth-of-type(3n) {
+    background-color: #ecf0f1;
+}
+            </code></pre>
+				<div class="note">Коли ви натиснете кнопку, кожен третій елемент списку буде виділено.</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="first-of-type-example">
+		<h3>:first-of-type</h3>
+		<div class="pseudoclass-container">
+			<div class="description">
+				<p>Псевдоклас <code>:first-of-type</code> вибирає перший дочірній елемент певного типу.</p>
+			</div>
+			<div class="example-box first-of-type-example">
+				<ul>
+					<li>Елемент 1</li>
+					<li>Елемент 2</li>
+					<li>Елемент 3</li>
+					<li>Елемент 4</li>
+					<li>Елемент 5</li>
+				</ul>
+				<button id="first-of-type-btn">Змінити колір першого елемента</button>
+			</div>
+			<div class="code-box">
+				<pre><code>
+.first-of-type-example ul li:first-of-type {
+    background-color: #ecf0f1;
+}
+            </code></pre>
+				<div class="note">Коли ви натиснете кнопку, перший елемент списку буде виділено.</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="last-of-type-example">
+		<h3>:last-of-type</h3>
+		<div class="pseudoclass-container">
+			<div class="description">
+				<p>Псевдоклас <code>:last-of-type</code> вибирає останній дочірній елемент певного типу.</p>
+			</div>
+			<div class="example-box last-of-type-example">
+				<ul>
+					<li>Елемент 1</li>
+					<li>Елемент 2</li>
+					<li>Елемент 3</li>
+					<li>Елемент 4</li>
+					<li>Елемент 5</li>
+				</ul>
+				<button id="last-of-type-btn">Змінити колір останнього елемента</button>
+			</div>
+			<div class="code-box">
+				<pre><code>
+.last-of-type-example ul li:last-of-type {
+    background-color: #ecf0f1;
+}
+            </code></pre>
+				<div class="note">Коли ви натиснете кнопку, останній елемент списку буде виділено.</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="only-child-example">
+		<h3>:only-child</h3>
+		<div class="pseudoclass-container">
+			<div class="description">
+				<p>Псевдоклас <code>:only-child</code> вибирає елемент, який є єдиним дочірнім елементом свого батька.</p>
+			</div>
+			<div class="example-box only-child-example">
+				<div>
+					<p>Єдиний елемент</p>
+				</div>
+				<div>
+					<p>Перший елемент</p>
+					<p>Другий елемент</p>
+				</div>
+				<div>
+					<p>Єдиний елемент</p>
+				</div>
+				<button id="only-child-btn">Змінити колір єдиного елемента</button>
+			</div>
+			<div class="code-box">
+				<pre><code>
+.only-child-example div:only-child {
+    background-color: #ecf0f1;
+}
+            </code></pre>
+				<div class="note">Коли ви натиснете кнопку, нічого не відбудеться.</div>
+			</div>
+		</div>
+	</section>
+
+	<script>
+		document.getElementById('only-child-btn').addEventListener('click', function () {
+			// Do nothing
+		});
+	</script>
+	<section id="empty-example">
+		<h3>:empty</h3>
+		<div class="pseudoclass-container">
+			<div class="description">
+				<p>Псевдоклас <code>:empty</code> вибирає елементи, які не мають дітей.</p>
+			</div>
+			<div class="example-box empty-example">
+				<div></div>
+				<div>Не порожній елемент</div>
+				<div></div>
+				<div>Не порожній елемент</div>
+				<button id="empty-btn">Змінити колір порожнього елемента</button>
+			</div>
+			<div class="code-box">
+				<pre><code>
+.empty-example div:empty {
+    background-color: #ecf0f1;
+}
+            </code></pre>
+				<div class="note">Коли ви натиснете кнопку, порожній елемент буде виділено.</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="target-example">
+		<h3>:target</h3>
+		<div class="pseudoclass-container">
+			<div class="description">
+				<p>Псевдоклас <code>:target</code> стилізує цільовий елемент URL, що містить ідентифікатор фрагмента.</p>
+			</div>
+			<div class="example-box target-example">
+				<a href="#target">Перейти до цільового елемента</a>
+				<div id="target">Цільовий елемент</div>
+				<button id="target-btn">Змінити колір цільового елемента</button>
+			</div>
+			<div class="code-box">
+				<pre><code>
+.target-example div:target {
+    background-color: #ecf0f1;
+}
+            </code></pre>
+				<div class="note">Коли ви натиснете кнопку, цільовий елемент буде виділено.</div>
+			</div>
+		</div>
+	</section>
+
+	<script>
+		document.getElementById('nth-of-type-btn').addEventListener('click', function () {
+			document.querySelectorAll('.nth-of-type-example ul li:nth-of-type(3n)').forEach(function (element) {
+				element.style.backgroundColor = '#ecf0f1';
+			});
+		});
+
+		document.getElementById('first-of-type-btn').addEventListener('click', function () {
+			document.querySelectorAll('.first-of-type-example ul li:first-of-type').forEach(function (element) {
+				element.style.backgroundColor = '#ecf0f1';
+			});
+		});
+
+		document.getElementById('last-of-type-btn').addEventListener('click', function () {
+			document.querySelectorAll('.last-of-type-example ul li:last-of-type').forEach(function (element) {
+				element.style.backgroundColor = '#ecf0f1';
+			});
+		});
+
+		document.getElementById('only-child-btn').addEventListener('click', function () {
+			document.querySelectorAll('.only-child-example div:only-child').forEach(function (element) {
+				element.style.backgroundColor = '#ecf0f1';
+			});
+		});
+
+		document.getElementById('empty-btn').addEventListener('click', function () {
+			document.querySelectorAll('.empty-example div:empty').forEach(function (element) {
+				element.style.backgroundColor = '#ecf0f1';
+			});
+		});
+
+		document.getElementById('target-btn').addEventListener('click', function () {
+			document.querySelectorAll('.target-example div:target').forEach(function (element) {
+				element.style.backgroundColor = '#ecf0f1';
+			});
+		});
+	</script>
+	<!-- <section>
 		<h2>Додаткові Псевдокласи для Вивчення</h2>
 		<p>Хоча приклад охоплює багато популярних псевдокласів, ось декілька, які ви можете додатково вивчити:</p>
 		<ul>
-			<li><strong>:nth-of-type()</strong> – Вибирає nth-дочірній елемент певного типу.</li>
-			<li><strong>:first-of-type</strong> – Вибирає перший дочірній елемент певного типу.</li>
-			<li><strong>:last-of-type</strong> – Вибирає останній дочірній елемент певного типу.</li>
-			<li><strong>:only-child</strong> – Вибирає елемент, який є єдиним дочірнім елементом свого батька.</li>
-			<li><strong>:empty</strong> – Вибирає елементи, які не мають дітей.</li>
-			<li><strong>:target</strong> – Стилізує цільовий елемент URL, що містить ідентифікатор фрагмента.</li>
+			<li><strong>:nth-of-type()</strong> – Вибирає nth-дочірній елемент певного типу. <a
+					href="#nth-of-type-example">Приклад</a></li>
+			<li><strong>:first-of-type</strong> – Вибирає перший дочірній елемент певного типу. <a
+					href="#first-of-type-example">Приклад</a></li>
+			<li><strong>:last-of-type</strong> – Вибирає останній дочірній елемент певного типу. <a
+					href="#last-of-type-example">Приклад</a></li>
+			<li><strong>:only-child</strong> – Вибирає елемент, який є єдиним дочірнім елементом свого батька. <a
+					href="#only-child-example">Приклад</a></li>
+			<li><strong>:empty</strong> – Вибирає елементи, які не мають дітей. <a href="#empty-example">Приклад</a></li>
+			<li><strong>:target</strong> – Стилізує цільовий елемент URL, що містить ідентифікатор фрагмента. <a
+					href="#target-example">Приклад</a></li>
 		</ul>
 		<p>Не соромтеся додавати їх до прикладу, щоб розширити ваші знання!</p>
-	</section>
+	</section> -->
+
 </body>
 
 </html>
